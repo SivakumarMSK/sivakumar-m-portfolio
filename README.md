@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sivakumar M — Frontend Engineer Portfolio
 
-## Getting Started
+A modern, high-performance developer portfolio built with **Next.js 16 (App Router)**, **React 19**, **TypeScript**, and **Tailwind CSS**. Designed specifically for tech recruiters, engineering managers, and clients to showcase real-world production experience, real-time WebSocket applications, and responsive UI architecture.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo & Deployment
+
+- **Portfolio URL**: Deployable with 1-click on [Vercel](https://vercel.com)
+- **LinkedIn**: [linkedin.com/in/m-sivakumar67](https://www.linkedin.com/in/m-sivakumar67)
+- **GitHub**: [github.com/SivakumarMSK](https://github.com/SivakumarMSK)
+- **Email**: [sivakumarmonline@gmail.com](mailto:sivakumarmonline@gmail.com)
+
+---
+
+## ⚡ Core Engineering Highlights
+
+- **Framework**: Next.js 16 (App Router) with full Static Site Generation (SSG) for instant worldwide CDN caching.
+- **Styling**: Tailwind CSS with custom cyber dark glassmorphism, animated glow rings, and responsive mobile-first layouts.
+- **Real-Time Showcases**: Special emphasis on WebSocket live streams, auto-reconnection logic, and bid stream synchronization.
+- **Projects Highlighted**:
+  - **DreamHouse Auction**: Real-time property bidding engine (`agent1.dreamhouseauction.com`).
+  - **SpamTight**: Production email security & verification portal (`spamtight.com`).
+  - **TeachersForStudents**: Active development EdTech platform.
+  - **Aqua BluePrint**: 8-step hydraulic engineering wizard with client-side jsPDF reporting.
+  - **Enterprise CRM**: Kanban & task management system with Django REST APIs.
+- **Recruiter Convenience**: Direct resume download button (`/Sivakumar_M_Resume.pdf`), one-click email/phone copying, and transparent 60-day notice period indicator.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend & Mobile** | Next.js 16, React.js 19, React Native (Expo), TypeScript, JavaScript (ES6+), React Router |
+| **Real-Time & APIs** | WebSockets, REST APIs Integration (15+ Endpoints), JWT Auth, Fetch API |
+| **Styling & Tooling** | Tailwind CSS, Vite, Lucide Icons, jsPDF & AutoTable |
+| **Dev Workflow** | Git/GitHub, AI-Assisted Engineering (Claude, Cursor, ChatGPT), Functional Testing |
+
+---
+
+## 📦 Getting Started Locally
+
+### Prerequisites
+- Node.js `v20+` or `v22+` (tested on Node v23.4.0)
+- npm `v10+`
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/SivakumarMSK/portfolio.git
+
+# Navigate to the project directory
+cd portfolio/portfolio-web
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Build an optimized static production bundle
+npm run build
 
-## Learn More
+# Start the production server locally
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Deploying to Vercel (Step-by-Step)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push this repository to your GitHub account:
+   ```bash
+   git remote add origin https://github.com/SivakumarMSK/<repo-name>.git
+   git branch -M main
+   git push -u origin main
+   ```
+2. Go to [Vercel](https://vercel.com) and log in with your GitHub account.
+3. Click **"Add New..."** -> **"Project"**.
+4. Select your portfolio repository from the list.
+5. In the **Root Directory** field, set `portfolio-web` (if you push the root `portfolio` folder) or leave as `./` if pushing `portfolio-web` directly.
+6. Click **Deploy**. Vercel will build and deploy your portfolio to a free `.vercel.app` domain within 60 seconds!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).

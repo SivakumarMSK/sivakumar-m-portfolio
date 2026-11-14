@@ -31,6 +31,14 @@ export const metadata: Metadata = {
     "Software Engineer Portfolio"
   ],
   authors: [{ name: "Sivakumar M", url: "https://www.linkedin.com/in/m-sivakumar67" }],
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" }
+    ],
+    apple: [
+      { url: "/apple-icon.svg", type: "image/svg+xml" }
+    ]
+  },
   openGraph: {
     title: "Sivakumar M | Frontend Developer (React.js • Next.js • React Native)",
     description:

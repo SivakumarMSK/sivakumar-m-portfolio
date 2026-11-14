@@ -6,7 +6,7 @@ A modern, high-performance developer portfolio built with **Next.js 16 (App Rout
 
 ## 🚀 Live Demo & Deployment
 
-- **Portfolio URL**: Deployable with 1-click on [Vercel](https://vercel.com)
+- **Live Website**: [sivakumar-m-portfolio.vercel.app](https://sivakumar-m-portfolio.vercel.app/)
 - **LinkedIn**: [linkedin.com/in/m-sivakumar67](https://www.linkedin.com/in/m-sivakumar67)
 - **GitHub**: [github.com/SivakumarMSK](https://github.com/SivakumarMSK)
 - **Email**: [sivakumarmonline@gmail.com](mailto:sivakumarmonline@gmail.com)

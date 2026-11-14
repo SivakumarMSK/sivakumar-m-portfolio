@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sivakumar-portfolio.vercel.app"),
+  metadataBase: new URL("https://sivakumar-m-portfolio.vercel.app"),
   title: "Sivakumar M | Frontend Developer (React.js • Next.js • React Native • WebSockets)",
   description:
     "Frontend Developer with 1+ year of production experience building React.js, React Native, and Next.js applications. Specialized in real-time WebSockets, REST API integrations, and scalable UI architecture. MCA Graduate (8.6 CGPA).",
